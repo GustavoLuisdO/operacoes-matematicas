@@ -9,13 +9,13 @@ function calcular(){
     case '+': resultado.innerHTML = `${num1} ${operador} ${num2} = ${(num1 + num2)}`
       break
     
-    case '-': resultado.innerHTML = `${num1} ${operador} ${num2} = ${(num1 + num2)}`
+    case '-': resultado.innerHTML = `${num1} ${operador} ${num2} = ${(num1 - num2)}`
       break
 
-    case '*': resultado.innerHTML = `${num1} ${operador} ${num2} = ${(num1 + num2)}`
+    case '*': resultado.innerHTML = `${num1} ${operador} ${num2} = ${(num1 * num2)}`
       break
 
-    case '/': resultado.innerHTML = `${num1} ${operador} ${num2} = ${(num1 + num2)}`
+    case '/': resultado.innerHTML = `${num1} ${operador} ${num2} = ${(num1 / num2)}`
       break
 
     default: resultado.innerHTML = `Valores inválidos`
